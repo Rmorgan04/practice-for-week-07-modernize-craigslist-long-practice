@@ -2,6 +2,126 @@
 .homepage #go,
 .homepage .leftlinks #cl_app_beta,
 .no-js,
+
+* {
+  font: "Helvetica Neue", "Helvetica", sans-serif;
+  background-color: whitesmoke;
+  color: #464646;
+}
+
+a :hover {
+  font-weight: bold;
+  color: #800080;
+}
+
+a :visited {
+  color: #800080;
+}
+
+a {
+  text-decoration: none;
+}
+
+a > span :hover {
+  font-weight: bold;
+  color: #800080;
+}
+
+ul {
+  padding: 0;
+}
+
+ul > li {
+  list-style: none;
+}
+
+.page-container {
+  max-width: 1200px;
+}
+
+#leftbar {
+  float: left;
+  padding: 0 30px;
+  box-sizing: border-box;
+  width: 25%;
+}
+
+#center {
+  float: left;
+  padding: 0 30px;
+  box-sizing: border-box;
+  width: 50%;
+  border: solid 1px #464646;
+  border-radius: 10px;
+}
+
+#center > div {
+  float: left;
+  width: 33%;
+}
+
+#rightbar {
+  float: left;
+  padding: 0 30px;
+  box-sizing: border-box;
+  width: 25%;
+}
+
+#topban h2 {
+  text-align: center;
+}
+
+ul.clfooter {
+  text-align: center;
+  border-top: 1px solid grey;
+  padding: 10px 0px;
+}
+
+ul.clfooter > li {
+  display: inline;
+  padding-right: 5px;
+}
+
+h4 ::before {
+  content: "\262E";
+}
+
+
+footer {
+  clear: both;
+}
+
+td {
+  border: solid 1px #333;
+  text-align: center;
+
+}
+
+td.past {
+  color: black;
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+.today > a {
+  color: white;
+  background-color: darkviolet;
+}
+
+td > a:hover {
+  background-color: lavender;
+}
+
+table.cal {
+  border-collapse: collapse;
+}
+
+td > a {
+  color: green;
+  font-weight: bold;
+}
+
+
 p.more {
   display: none;
 }
